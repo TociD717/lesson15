@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson15</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <div class="fluid-container">
+
+        <header class="bg-white shadow">
+            <div class="w-full flex justify-between items-center py-4">
+                <div class="text-red-600 text-xl font-bold pl-6">
+                    <a href="">SITE LOGO</a>
+                </div>
+                <nav class="hidden md:block">
+                    <ul class="flex font-semibold space-x-8 text-gray-600 pr-6">
+                        <li><a href="#" class="hover:text-black">Home</a></li>
+                        <li><a href="#" class="hover:text-black">About</a></li>
+                        <li><a href="#" class="hover:text-black">Contacts</a></li>
+                        <li><a href="#" class="hover:text-black">News</a></li>
+                    </ul>
+                </nav>
+                <button class="md:hidden pr-6">
+                    <img class="w-6 h-8" src="assets/images/list-svgrepo-com.svg" alt="">
+                </button>
+            </div>
+        </header>
+
+
+        <main class="mt-8">
+            <div class="cards-section">
+
+                <div class="card">
+                    <img class="card__image" src="assets/images/img-header.png" alt="Image1">
+                    <div class="card__text">
+                        Dolor sit amet, consectetur adipiscing elit.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card__image" src="assets/images/img-post-3.png" alt="Image2">
+                    <div class="card__text">
+                        Animi, aperiam deserunt excepturi fugit
+                    </div>
+                </div>
+
+            </div>
+
+            <section class="mt-12">
+                <h2 class="article-header">Lorem ipsum dolor sit.</h2>
+                <p class="article-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accusamus adipisci aspernatur aut debitis
+                    distinctio earum esse et explicabo facere, magni, modi nostrum optio quam quasi rem reprehenderit
+                    sit velit veniam.
+                </p>
+                <h3 class="article-header">Harum nesciunt nostrum rem ullam?</h3>
+                <p class="article-text">
+                    Accusamus asperiores culpa cumque dolor ea error illo minima mollitia necessitatibus nisi nostrum,
+                    nulla quo quod reiciendis reprehenderit, velit vitae voluptate voluptates.
+                </p>
+                <h3 class="article-header">Animi autem ipsum omnis quidem.</h3>
+                <p class="article-text">
+                    Adipisci animi, maiores non ea rerumque officiis quia! Animi delectus, dolores dolorum ea esse
+                    fugiat hic impedit ipsa libero non, quas quos recusandae rerum sint soluta?
+                </p>
+            </section>
+
+            <div class="mt-8">
+                <form class="form" action="#">
+                    <div class="mb-4">
+                        <label class="form-label" for="email">Subscribe to our news</label>
+                        <input class="form-input" id="email" type="email" placeholder="Email adress...">
+                    </div>
+                    <button class="form-button" type="submit">Subscribe</button>
+                </form>
+            </div>
+
+        </main>
+
+        <div class="my-10">
+            <ul class="flex justify-center">
+                <li><a class="pagination-list-link rounded-l-md" href="">First</a></li>
+                <li><a class="pagination-list-link" href="">Prev</a></li>
+                <li><a class="pagination-list-link" href="">1</a></li>
+                <li><a class="pagination-list-link" href="">2</a></li>
+                <li><a class="pagination-list-link" href="">3</a></li>
+                <li><a class="pagination-list-link" href="">4</a></li>
+                <li><a class="pagination-list-link" href="">5</a></li>
+                <li><a class="pagination-list-link" href="">Next</a></li>
+                <li><a class="pagination-list-link rounded-r-md" href="">Last</a></li>
+            </ul>
+        </div>
+
+        <footer class="footer">
+            <div class="flex gap-10">
+                <div>
+                    <h3 class="font-semibold text-gray-700 mb-4">About Us</h3>
+                    <ul>
+                        <li><a class="footer-list-item" href="">About our project</a></li>
+                        <li><a class="footer-list-item" href="">Our team</a></li>
+                        <li><a class="footer-list-item" href="">Contacts</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-gray-700 mb-4">We are on social networks</h3>
+                    <ul>
+                        <li><a class="footer-list-item" href="">Facebook</a></li>
+                        <li><a class="footer-list-item" href="">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>

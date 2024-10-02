@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fluid-container {
+    @apply w-full max-w-full px-4 sm:px-6 lg:px-8 mx-auto;
+}
+
+.cards-section {
+    @apply grid grid-cols-2 gap-4;
+}
+
+.card {
+    @apply relative bg-red-500 rounded-lg overflow-hidden h-96;
+}
+
+.card__image {
+    @apply w-full h-full object-cover opacity-75 transition duration-300 hover:scale-110;
+}
+
+.card__text {
+    @apply absolute bottom-4 left-4 text-white text-2xl font-bold;
+}
+
+.form {
+    @apply w-full max-w-md mx-auto rounded shadow-md p-5;
+}
+
+.form-input {
+    @apply border rounded w-full py-2 px-3 text-gray-500 leading-tight shadow focus:outline-none focus:shadow-lg;
+}
+
+.form-label {
+    @apply block text-gray-700 mb-2;
+}
+
+.form-button {
+    @apply block px-6 py-2 text-xs font-medium text-center text-white uppercase rounded shadow bg-blue-500 hover:bg-blue-800 hover:shadow-lg leading-6;
+}
+
+.pagination-list {
+    @apply flex justify-center;
+}
+
+.pagination-list-link {
+    @apply block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-200 hover:border-blue-400;
+}
+
+.article-header {
+    @apply text-3xl font-bold mb-6;
+}
+
+.article-text {
+    @apply text-gray-700 mb-4;
+}  
+
+.footer {
+    @apply border-t mt-10 py-10;
+}
+
+.footer-list-item {
+    @apply block py-1 text-gray-500;
+}
